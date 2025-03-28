@@ -2,7 +2,7 @@ CC := gcc
 
 football.exe: football.c
 	# fill in commands here
-	$(CC) -o football.exe football.c
+	$(CC) -o football.exe football__main.c football.c
 
 temperature.exe: main.c report.c
 	# fill in commands here
